@@ -1,0 +1,28 @@
+package com.xing.mongodbtest.controller;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.xing.mongodbtest.model.User;
+import com.xing.mongodbtest.repository.UserDao;
+
+@Controller
+@RequestMapping("/test")
+@ResponseBody
+public class TestAction {
+	public static Logger logger = Logger.getLogger(TestAction.class);
+	@Autowired
+	private UserDao userDao;
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public void test(){
+		logger.info("进入主方法中...");
+		User user = new User();
+		user.setUsername("aaa");
+		user.setPassword("bbbccc");
+		userDao.store(user);
+	}
+}

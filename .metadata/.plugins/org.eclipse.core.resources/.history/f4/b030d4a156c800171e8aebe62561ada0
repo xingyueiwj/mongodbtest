@@ -1,0 +1,15 @@
+package com.xing.mongodbtest.controller;
+
+import java.util.List;
+
+import com.xing.mongodbtest.model.User;
+import com.xing.mongodbtest.repository.UserDao;
+import com.xing.mongodbtest.repository.UserDaoImpl;
+
+public class MongodbTest {
+	public static void main(String[]args){
+		UserDao user = new UserDaoImpl();
+		List<User> findAll = user.findAll();
+		System.out.println(findAll.toArray().toString());
+	}
+}

@@ -1,0 +1,7 @@
+package mongodbtest.classtest;
+
+public interface Shape {
+	String testA = "AAA";
+	void aaa();
+	void bbb();
+}

@@ -1,0 +1,17 @@
+package mongodbtest.classtest;
+
+public class Circle implements Shape{
+	String testA = "BBB";
+	@Override
+	public void aaa() {
+		System.out.println("aaaaaa");
+		
+	}
+
+	@Override
+	public void bbb() {
+		System.out.println("bbbbbbbbbb");
+		
+	}
+	
+}

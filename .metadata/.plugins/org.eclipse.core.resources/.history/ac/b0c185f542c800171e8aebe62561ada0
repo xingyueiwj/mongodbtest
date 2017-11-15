@@ -1,0 +1,5 @@
+package mongodbtest.model;
+
+public class User {
+
+}

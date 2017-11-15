@@ -1,0 +1,5 @@
+package mongodbtest.repository;
+
+public class UserDaoImpl {
+
+}

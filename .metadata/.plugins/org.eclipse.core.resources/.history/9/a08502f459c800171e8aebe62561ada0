@@ -1,0 +1,7 @@
+package com.xing.mongodbtest.testController;
+
+public class TestSpringIocController {
+	public void print(){
+		System.out.println("获取ioc控制反转ok~");
+	}
+}

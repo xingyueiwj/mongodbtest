@@ -1,0 +1,7 @@
+package mongodbtest.classtest;
+
+public abstract Shape {
+	String testA = "AAA";
+	void aaa();
+	void bbb();
+}

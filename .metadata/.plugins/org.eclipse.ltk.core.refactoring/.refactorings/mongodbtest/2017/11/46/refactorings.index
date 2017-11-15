@@ -1,0 +1,14 @@
+1510555684972	Copy file
+1510555701730	Rename resource 'Copy of config.properties'
+1510558288834	Move 'error.jsp' to 'webapp'
+1510558350621	Rename resource 'error.jsp'
+1510558366368	Rename resource 'nopage.jsp'
+1510559654110	Rename package 'mongodbtest.controller'
+1510559665591	Rename package 'mongodbtest.model'
+1510559671865	Rename package 'mongodbtest.repository'
+1510562795695	Extract local variable 'findAll'
+1510565992905	Copy compilation units
+1510566006630	Delete elements
+1510566899957	Rename package 'mongodbtest.testController'
+1510567385298	Copy compilation units
+1510567433020	Delete element

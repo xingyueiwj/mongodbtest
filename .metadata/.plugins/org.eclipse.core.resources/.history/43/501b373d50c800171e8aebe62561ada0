@@ -1,0 +1,5 @@
+package com.xing.mongodbtest.controller;
+
+public class UserDaoTestController {
+
+}

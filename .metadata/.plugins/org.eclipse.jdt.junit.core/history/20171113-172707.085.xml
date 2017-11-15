@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserDaoTestController" project="mongodbtest" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.xing.mongodbtest.controller.UserDaoTestController" time="102.438">
+    <testcase name="save" classname="com.xing.mongodbtest.controller.UserDaoTestController" time="93.756"/>
+    <testcase name="springIoc" classname="com.xing.mongodbtest.controller.UserDaoTestController" time="8.682"/>
+  </testsuite>
+</testrun>
